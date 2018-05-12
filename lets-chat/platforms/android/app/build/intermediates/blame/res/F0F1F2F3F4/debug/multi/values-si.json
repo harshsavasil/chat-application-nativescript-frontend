@@ -1,0 +1,64 @@
+[
+    {
+        "outputFile": "/home/harsh/Workspace/lets-chat/platforms/android/app/build/intermediates/incremental/mergeF0F1F2F3F4DebugResources/merged.dir/values-si/values-si.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 197,
+                    "endOffset": 298
+                },
+                "from": {
+                    "file": "/home/harsh/.android/build-cache/301ca36afe3aa1bb3765c4ec127e18c02c438a15/output/res/values-si/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 247,
+                        "endColumn": 197,
+                        "endOffset": 444
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 303,
+                    "endColumn": 103,
+                    "endOffset": 402
+                },
+                "from": {
+                    "file": "/home/harsh/.android/build-cache/f314f6dac5053e496caceab4e80a53bea45671ae/output/res/values-si/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 205,
+                        "endColumn": 99,
+                        "endOffset": 304
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 407,
+                    "endColumn": 100,
+                    "endOffset": 503
+                },
+                "from": {
+                    "file": "/home/harsh/.android/build-cache/2c3b9dd161d10a21910ac53b1703c44e970c1cb6/output/res/values-si/values-si.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 100,
+                        "endOffset": 151
+                    }
+                }
+            }
+        ]
+    }
+]

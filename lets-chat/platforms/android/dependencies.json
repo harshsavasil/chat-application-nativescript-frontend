@@ -1,0 +1,66 @@
+[
+    {
+        "name": "nativescript-angular",
+        "directory": "../../node_modules/nativescript-angular"
+    },
+    {
+        "name": "nativescript-floatingactionbutton",
+        "directory": "../../node_modules/nativescript-floatingactionbutton"
+    },
+    {
+        "name": "nativescript-loading-indicator",
+        "directory": "../../node_modules/nativescript-loading-indicator"
+    },
+    {
+        "name": "nativescript-local-notifications",
+        "directory": "../../node_modules/nativescript-local-notifications"
+    },
+    {
+        "name": "nativescript-material-icons",
+        "directory": "../../node_modules/nativescript-material-icons"
+    },
+    {
+        "name": "nativescript-ng-shadow",
+        "directory": "../../node_modules/nativescript-ng-shadow"
+    },
+    {
+        "name": "nativescript-ngx-fonticon",
+        "directory": "../../node_modules/nativescript-ngx-fonticon"
+    },
+    {
+        "name": "nativescript-pulltorefresh",
+        "directory": "../../node_modules/nativescript-pulltorefresh"
+    },
+    {
+        "name": "nativescript-push-notifications",
+        "directory": "../../node_modules/nativescript-push-notifications"
+    },
+    {
+        "name": "nativescript-ripple",
+        "directory": "../../node_modules/nativescript-ripple"
+    },
+    {
+        "name": "nativescript-sqlite",
+        "directory": "../../node_modules/nativescript-sqlite"
+    },
+    {
+        "name": "nativescript-theme-core",
+        "directory": "../../node_modules/nativescript-theme-core"
+    },
+    {
+        "name": "nativescript-toast",
+        "directory": "../../node_modules/nativescript-toast"
+    },
+    {
+        "name": "tns-core-modules",
+        "directory": "../../node_modules/tns-core-modules"
+    },
+    {
+        "name": "nativescript-intl",
+        "directory": "../../node_modules/nativescript-intl"
+    },
+    {
+        "name": "tns-core-modules-widgets",
+        "directory": "../../node_modules/tns-core-modules-widgets"
+    }
+]

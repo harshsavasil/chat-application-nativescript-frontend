@@ -1,0 +1,27 @@
+//default elements
+android {
+    productFlavors {
+        "F0" {
+            dimension "nativescriptfloatingactionbutton"
+        }
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        maven {
+            url "https://maven.google.com"
+        }
+    }
+}
+
+dependencies {
+      def supportVer = "26.1.0";
+
+      if(project.hasProperty("supportVersion")) {
+       supportVer = supportVersion
+      }
+
+     compile "com.android.support:design:$supportVer"
+}

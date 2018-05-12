@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/harsh/.android/build-cache/55eaf0258e356d6130d83ae6df8dfea1837422dd/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dd431d6aa9ce9dc0d429fcd239d412a82ea0e9a7">
+        <dex dex="/home/harsh/Workspace/lets-chat/platforms/android/app/build/intermediates/pre-dexed/F0F1F2/debug/classes_5c4b82447f1edf429b5d00f3705d732262e170e6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/harsh/.android/build-cache/5144e2a015f06e0a5fd9dea63e6ac04808d4d63b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="746274223beb11b1cda7854d7eec3038695c2c93">
+        <dex dex="/home/harsh/Workspace/nativeScript_dev/lets-chat/platforms/android/app/build/intermediates/pre-dexed/F0F1F2/debug/classes_3b6aa7d044ed1be5804453434f6b028eb535a11b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/harsh/.android/build-cache/32ecba47a005ddc6f2527afdf7ddac9728967b78/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="746274223beb11b1cda7854d7eec3038695c2c93">
+        <dex dex="/home/harsh/Workspace/lets-chat/platforms/android/app/build/intermediates/pre-dexed/F0F1F2/debug/classes_5c129c679a27786cc2150bf2a2d50a36a6c313e3.jar" />
+    </item>
+
+</items>

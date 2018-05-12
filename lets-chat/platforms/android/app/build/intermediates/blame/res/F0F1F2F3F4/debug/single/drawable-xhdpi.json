@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/home/harsh/Workspace/lets-chat/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xhdpi/ic_arrow_back.png",
+        "source": "/home/harsh/Workspace/lets-chat/platforms/android/app/src/main/res/drawable-xhdpi/ic_arrow_back.png"
+    },
+    {
+        "merged": "/home/harsh/Workspace/lets-chat/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xhdpi/background.png",
+        "source": "/home/harsh/Workspace/lets-chat/platforms/android/app/src/main/res/drawable-xhdpi/background.png"
+    },
+    {
+        "merged": "/home/harsh/Workspace/lets-chat/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xhdpi/ic_comment.png",
+        "source": "/home/harsh/Workspace/lets-chat/platforms/android/app/src/main/res/drawable-xhdpi/ic_comment.png"
+    },
+    {
+        "merged": "/home/harsh/Workspace/lets-chat/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xhdpi/ic_photo_camera.png",
+        "source": "/home/harsh/Workspace/lets-chat/platforms/android/app/src/main/res/drawable-xhdpi/ic_photo_camera.png"
+    },
+    {
+        "merged": "/home/harsh/Workspace/lets-chat/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xhdpi/login_bg.png",
+        "source": "/home/harsh/Workspace/lets-chat/platforms/android/app/src/main/res/drawable-xhdpi/login_bg.png"
+    },
+    {
+        "merged": "/home/harsh/Workspace/lets-chat/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xhdpi/icon.png",
+        "source": "/home/harsh/Workspace/lets-chat/platforms/android/app/src/main/res/drawable-xhdpi/icon.png"
+    },
+    {
+        "merged": "/home/harsh/Workspace/lets-chat/platforms/android/app/build/intermediates/res/merged/F0F1F2F3F4/debug/drawable-xhdpi/logo.png",
+        "source": "/home/harsh/Workspace/lets-chat/platforms/android/app/src/main/res/drawable-xhdpi/logo.png"
+    }
+]

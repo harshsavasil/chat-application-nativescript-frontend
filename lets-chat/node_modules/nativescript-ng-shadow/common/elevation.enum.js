@@ -1,0 +1,30 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var Elevation;
+(function (Elevation) {
+    Elevation[Elevation["SWITCH"] = 1] = "SWITCH";
+    Elevation[Elevation["CARD_RESTING"] = 2] = "CARD_RESTING";
+    Elevation[Elevation["RAISED_BUTTON_RESTING"] = 2] = "RAISED_BUTTON_RESTING";
+    Elevation[Elevation["SEARCH_BAR_RESTING"] = 2] = "SEARCH_BAR_RESTING";
+    Elevation[Elevation["REFRESH_INDICADOR"] = 3] = "REFRESH_INDICADOR";
+    Elevation[Elevation["SEARCH_BAR_SCROLLED"] = 3] = "SEARCH_BAR_SCROLLED";
+    Elevation[Elevation["APPBAR"] = 4] = "APPBAR";
+    Elevation[Elevation["FAB_RESTING"] = 6] = "FAB_RESTING";
+    Elevation[Elevation["SNACKBAR"] = 6] = "SNACKBAR";
+    Elevation[Elevation["BOTTOM_NAVIGATION_BAR"] = 8] = "BOTTOM_NAVIGATION_BAR";
+    Elevation[Elevation["MENU"] = 8] = "MENU";
+    Elevation[Elevation["CARD_PICKED_UP"] = 8] = "CARD_PICKED_UP";
+    Elevation[Elevation["RAISED_BUTTON_PRESSED"] = 8] = "RAISED_BUTTON_PRESSED";
+    Elevation[Elevation["SUBMENU_LEVEL1"] = 9] = "SUBMENU_LEVEL1";
+    Elevation[Elevation["SUBMENU_LEVEL2"] = 10] = "SUBMENU_LEVEL2";
+    Elevation[Elevation["SUBMENU_LEVEL3"] = 11] = "SUBMENU_LEVEL3";
+    Elevation[Elevation["SUBMENU_LEVEL4"] = 12] = "SUBMENU_LEVEL4";
+    Elevation[Elevation["SUBMENU_LEVEL5"] = 13] = "SUBMENU_LEVEL5";
+    Elevation[Elevation["FAB_PRESSED"] = 12] = "FAB_PRESSED";
+    Elevation[Elevation["NAV_DRAWER"] = 16] = "NAV_DRAWER";
+    Elevation[Elevation["RIGHT_DRAWER"] = 16] = "RIGHT_DRAWER";
+    Elevation[Elevation["MODAL_BOTTOM_SHEET"] = 16] = "MODAL_BOTTOM_SHEET";
+    Elevation[Elevation["DIALOG"] = 24] = "DIALOG";
+    Elevation[Elevation["PICKER"] = 24] = "PICKER";
+})(Elevation = exports.Elevation || (exports.Elevation = {}));
+//# sourceMappingURL=elevation.enum.js.map

@@ -1,0 +1,40 @@
+<StackLayout class='login-page'>
+  <GridLayout class="login-container" *ngIf="isLoggingIn" rows="auto, auto" columns="*">
+    <TextField class="login-mobile" hint="Mobile Number" keyboardType="number" [(ngModel)]="mobileNumber" autocapitalizationType="none"
+      row="0" col="0">
+    </TextField>
+    <TextField class="login-password" hint="Password" secure="true" [(ngModel)]="passwordLogin" row="1" col="0">
+    </TextField>
+  </GridLayout>
+  <GridLayout class="signup-container" *ngIf="!isLoggingIn" rows="auto, auto, auto, auto" columns="*">
+    <GridLayout rows="70" columns="auto, *" row="0">
+      <ListPicker class="signup-input-fields" [items]="countryCodes" selectedIndex="selectedCountryCodeIndex" class="p-15" row="0"
+        col="0">
+      </ListPicker>
+      <TextField class="signup-input-fields" hint="Mobile Number" keyboardType="number" [(ngModel)]="mobileSignup" autocapitalizationType="none"
+        row="0" col="1">
+      </TextField>
+    </GridLayout>
+    <GridLayout rows="70" columns="*, *" row="1" col="0">
+      <TextField class="signup-input-fields" hint="First Name" [(ngModel)]="firstName" autocorrect="false" autocapitalizationType="none"
+        row="0" col="0">
+      </TextField>
+      <TextField class="signup-input-fields" hint="Last Name" [(ngModel)]="lastName" autocorrect="false" autocapitalizationType="none"
+        row="0" col="1">
+      </TextField>
+    </GridLayout>
+    <TextField class="signup-input-fields" hint="Password" secure="true" [(ngModel)]="passwordSignup" row="2">
+    </TextField>
+    <GridLayout row="3" col="1" columns="*, auto, *">
+      <Label class="h3 m-15 male-label" [text]="MaleGenderState" textWrap="true" row="0" col="0"></Label>
+      <Switch row="0" col="1" class="m-15" checked="{{gender}}"></Switch>
+      <Label class="h3 m-15 female-label" [text]="FemaleGenderState" textWrap="true" row="0" col="2"></Label>
+    </GridLayout>
+  </GridLayout>
+  <GridLayout class="button-container" rows="auto" columns="*, *">
+    <Button [text]="isLoggingIn ? 'Sign in' : 'Sign up'" col="0" class="submit-button" (tap)="loginOrSignup()">
+    </Button>
+    <Button [text]="isLoggingIn ? 'Sign up' : 'Back to login'" col="1" class="signup-button" (tap)="toggleDisplay()">
+    </Button>
+  </GridLayout>
+</StackLayout>

@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "/home/harsh/Workspace/lets-chat/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/color-v23/abc_color_highlight_material.xml",
+        "source": "/home/harsh/.android/build-cache/c8eb399cd6a406670f36c82489953f4fa2cc95f1/output/res/color-v23/abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "/home/harsh/Workspace/lets-chat/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/color-v23/abc_tint_switch_track.xml",
+        "source": "/home/harsh/.android/build-cache/c8eb399cd6a406670f36c82489953f4fa2cc95f1/output/res/color-v23/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/home/harsh/Workspace/lets-chat/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/color-v23/design_tint_password_toggle.xml",
+        "source": "/home/harsh/.android/build-cache/bd42fe1270d464ede6e537596d59917f2e5acec9/output/res/color-v23/design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "/home/harsh/Workspace/lets-chat/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/color-v23/abc_btn_colored_text_material.xml",
+        "source": "/home/harsh/.android/build-cache/c8eb399cd6a406670f36c82489953f4fa2cc95f1/output/res/color-v23/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/home/harsh/Workspace/lets-chat/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/color-v23/abc_tint_edittext.xml",
+        "source": "/home/harsh/.android/build-cache/c8eb399cd6a406670f36c82489953f4fa2cc95f1/output/res/color-v23/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/home/harsh/Workspace/lets-chat/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "/home/harsh/.android/build-cache/c8eb399cd6a406670f36c82489953f4fa2cc95f1/output/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/home/harsh/Workspace/lets-chat/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/color-v23/abc_tint_seek_thumb.xml",
+        "source": "/home/harsh/.android/build-cache/c8eb399cd6a406670f36c82489953f4fa2cc95f1/output/res/color-v23/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/home/harsh/Workspace/lets-chat/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/color-v23/abc_tint_default.xml",
+        "source": "/home/harsh/.android/build-cache/c8eb399cd6a406670f36c82489953f4fa2cc95f1/output/res/color-v23/abc_tint_default.xml"
+    },
+    {
+        "merged": "/home/harsh/Workspace/lets-chat/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/color-v23/abc_tint_btn_checkable.xml",
+        "source": "/home/harsh/.android/build-cache/c8eb399cd6a406670f36c82489953f4fa2cc95f1/output/res/color-v23/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/home/harsh/Workspace/lets-chat/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/color-v23/abc_tint_spinner.xml",
+        "source": "/home/harsh/.android/build-cache/c8eb399cd6a406670f36c82489953f4fa2cc95f1/output/res/color-v23/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/home/harsh/Workspace/lets-chat/platforms/android/app/build/intermediates/res/merged/F0F1F2F3/debug/color-v23/abc_tint_switch_thumb.xml",
+        "source": "/home/harsh/.android/build-cache/c8eb399cd6a406670f36c82489953f4fa2cc95f1/output/res/color-v23/abc_tint_switch_thumb.xml"
+    }
+]

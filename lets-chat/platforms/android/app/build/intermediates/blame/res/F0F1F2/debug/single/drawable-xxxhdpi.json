@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "/home/harsh/Workspace/nativeScript_dev/lets-chat/platforms/android/app/build/intermediates/res/merged/F0F1F2/debug/drawable-xxxhdpi/ic_photo_camera.png",
+        "source": "/home/harsh/Workspace/nativeScript_dev/lets-chat/platforms/android/app/src/main/res/drawable-xxxhdpi/ic_photo_camera.png"
+    },
+    {
+        "merged": "/home/harsh/Workspace/lets-chat/platforms/android/app/build/intermediates/res/merged/F0F1F2/debug/drawable-xxxhdpi/ic_arrow_back.png",
+        "source": "/home/harsh/Workspace/lets-chat/platforms/android/app/src/main/res/drawable-xxxhdpi/ic_arrow_back.png"
+    },
+    {
+        "merged": "/home/harsh/Workspace/lets-chat/platforms/android/app/build/intermediates/res/merged/F0F1F2/debug/drawable-xxxhdpi/ic_photo_camera.png",
+        "source": "/home/harsh/Workspace/lets-chat/platforms/android/app/src/main/res/drawable-xxxhdpi/ic_photo_camera.png"
+    },
+    {
+        "merged": "/home/harsh/Workspace/lets-chat/platforms/android/app/build/intermediates/res/merged/F0F1F2/debug/drawable-xxxhdpi/logo.png",
+        "source": "/home/harsh/Workspace/lets-chat/platforms/android/app/src/main/res/drawable-xxxhdpi/logo.png"
+    },
+    {
+        "merged": "/home/harsh/Workspace/nativeScript_dev/lets-chat/platforms/android/app/build/intermediates/res/merged/F0F1F2/debug/drawable-xxxhdpi/logo.png",
+        "source": "/home/harsh/Workspace/nativeScript_dev/lets-chat/platforms/android/app/src/main/res/drawable-xxxhdpi/logo.png"
+    },
+    {
+        "merged": "/home/harsh/Workspace/nativeScript_dev/lets-chat/platforms/android/app/build/intermediates/res/merged/F0F1F2/debug/drawable-xxxhdpi/ic_comment.png",
+        "source": "/home/harsh/Workspace/nativeScript_dev/lets-chat/platforms/android/app/src/main/res/drawable-xxxhdpi/ic_comment.png"
+    },
+    {
+        "merged": "/home/harsh/Workspace/nativeScript_dev/lets-chat/platforms/android/app/build/intermediates/res/merged/F0F1F2/debug/drawable-xxxhdpi/background.png",
+        "source": "/home/harsh/Workspace/nativeScript_dev/lets-chat/platforms/android/app/src/main/res/drawable-xxxhdpi/background.png"
+    },
+    {
+        "merged": "/home/harsh/Workspace/nativeScript_dev/lets-chat/platforms/android/app/build/intermediates/res/merged/F0F1F2/debug/drawable-xxxhdpi/ic_arrow_back.png",
+        "source": "/home/harsh/Workspace/nativeScript_dev/lets-chat/platforms/android/app/src/main/res/drawable-xxxhdpi/ic_arrow_back.png"
+    },
+    {
+        "merged": "/home/harsh/Workspace/lets-chat/platforms/android/app/build/intermediates/res/merged/F0F1F2/debug/drawable-xxxhdpi/login_bg.png",
+        "source": "/home/harsh/Workspace/lets-chat/platforms/android/app/src/main/res/drawable-xxxhdpi/login_bg.png"
+    },
+    {
+        "merged": "/home/harsh/Workspace/nativeScript_dev/lets-chat/platforms/android/app/build/intermediates/res/merged/F0F1F2/debug/drawable-xxxhdpi/icon.png",
+        "source": "/home/harsh/Workspace/nativeScript_dev/lets-chat/platforms/android/app/src/main/res/drawable-xxxhdpi/icon.png"
+    },
+    {
+        "merged": "/home/harsh/Workspace/lets-chat/platforms/android/app/build/intermediates/res/merged/F0F1F2/debug/drawable-xxxhdpi/icon.png",
+        "source": "/home/harsh/Workspace/lets-chat/platforms/android/app/src/main/res/drawable-xxxhdpi/icon.png"
+    },
+    {
+        "merged": "/home/harsh/Workspace/nativeScript_dev/lets-chat/platforms/android/app/build/intermediates/res/merged/F0F1F2/debug/drawable-xxxhdpi/login_bg.png",
+        "source": "/home/harsh/Workspace/nativeScript_dev/lets-chat/platforms/android/app/src/main/res/drawable-xxxhdpi/login_bg.png"
+    },
+    {
+        "merged": "/home/harsh/Workspace/lets-chat/platforms/android/app/build/intermediates/res/merged/F0F1F2/debug/drawable-xxxhdpi/ic_comment.png",
+        "source": "/home/harsh/Workspace/lets-chat/platforms/android/app/src/main/res/drawable-xxxhdpi/ic_comment.png"
+    },
+    {
+        "merged": "/home/harsh/Workspace/lets-chat/platforms/android/app/build/intermediates/res/merged/F0F1F2/debug/drawable-xxxhdpi/background.png",
+        "source": "/home/harsh/Workspace/lets-chat/platforms/android/app/src/main/res/drawable-xxxhdpi/background.png"
+    }
+]

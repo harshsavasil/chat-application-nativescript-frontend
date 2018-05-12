@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/harsh/Workspace/nativeScript_dev/lets-chat/platforms/android/app/build/intermediates/res/merged/F0F1F2/debug/drawable-nodpi/login_bg.png",
+        "source": "/home/harsh/Workspace/nativeScript_dev/lets-chat/platforms/android/app/src/main/res/drawable-nodpi/login_bg.png"
+    },
+    {
+        "merged": "/home/harsh/Workspace/lets-chat/platforms/android/app/build/intermediates/res/merged/F0F1F2/debug/drawable-nodpi/login_bg.png",
+        "source": "/home/harsh/Workspace/lets-chat/platforms/android/app/src/main/res/drawable-nodpi/login_bg.png"
+    }
+]

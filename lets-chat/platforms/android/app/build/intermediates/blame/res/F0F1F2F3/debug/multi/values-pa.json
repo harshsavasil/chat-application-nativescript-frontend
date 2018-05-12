@@ -1,0 +1,64 @@
+[
+    {
+        "outputFile": "/home/harsh/Workspace/lets-chat/platforms/android/app/build/intermediates/incremental/mergeF0F1F2F3DebugResources/merged.dir/values-pa/values-pa.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 209,
+                    "endOffset": 310
+                },
+                "from": {
+                    "file": "/home/harsh/.android/build-cache/301ca36afe3aa1bb3765c4ec127e18c02c438a15/output/res/values-pa/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 247,
+                        "endColumn": 209,
+                        "endOffset": 456
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 315,
+                    "endColumn": 103,
+                    "endOffset": 414
+                },
+                "from": {
+                    "file": "/home/harsh/.android/build-cache/f314f6dac5053e496caceab4e80a53bea45671ae/output/res/values-pa/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 205,
+                        "endColumn": 99,
+                        "endOffset": 304
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 419,
+                    "endColumn": 100,
+                    "endOffset": 515
+                },
+                "from": {
+                    "file": "/home/harsh/.android/build-cache/2c3b9dd161d10a21910ac53b1703c44e970c1cb6/output/res/values-pa/values-pa.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 100,
+                        "endOffset": 151
+                    }
+                }
+            }
+        ]
+    }
+]

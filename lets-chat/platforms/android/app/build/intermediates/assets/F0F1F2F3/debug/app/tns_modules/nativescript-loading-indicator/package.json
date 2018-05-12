@@ -1,0 +1,78 @@
+{
+  "_from": "nativescript-loading-indicator",
+  "_id": "nativescript-loading-indicator@2.4.0",
+  "_inBundle": false,
+  "_integrity": "sha512-AsxtMsdezx6a+1zGDT0hkrZ3GLx2QPa7sHk43BMcO/inor8ElRktNV9T0ylIZgLwt7AAa814sSiPW1GPi0hduw==",
+  "_location": "/nativescript-loading-indicator",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "nativescript-loading-indicator",
+    "name": "nativescript-loading-indicator",
+    "escapedName": "nativescript-loading-indicator",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/nativescript-loading-indicator/-/nativescript-loading-indicator-2.4.0.tgz",
+  "_shasum": "615b6d45facdbdb65d0c392359c539d8b974d5f4",
+  "_spec": "nativescript-loading-indicator",
+  "_where": "/home/harsh/Workspace/nativeScript_dev/lets-chat",
+  "author": {
+    "name": "Nathan Walker",
+    "email": "walkerrunpdx@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/NathanWalker/nativescript-loading-indicator/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Pocketsmith"
+    }
+  ],
+  "deprecated": false,
+  "description": "A NativeScript plugin for showing an overlayed loading indicator.",
+  "devDependencies": {
+    "tns-core-modules": "~3.2.0",
+    "tns-platform-declarations": "~3.2.0",
+    "typescript": "~2.5.2"
+  },
+  "homepage": "https://github.com/NathanWalker/nativescript-loading-indicator",
+  "keywords": [
+    "NativeScript",
+    "loading-indicator",
+    "Loading",
+    "Progress",
+    "MBProgressHUD",
+    "ProgressDialog"
+  ],
+  "license": "MIT",
+  "main": "loading-indicator",
+  "name": "nativescript-loading-indicator",
+  "nativescript": {
+    "platforms": {
+      "android": "2.5.0",
+      "ios": "2.5.0"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NathanWalker/nativescript-loading-indicator.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "demo.android": "npm run preparedemo; cd demo; tns run android --emulator",
+    "demo.ios": "npm run preparedemo; cd demo; tns run ios --emulator",
+    "preparedemo": "npm run build; cd demo; tns plugin remove nativescript-loading-indicator; tns plugin add ..; tns install",
+    "reset": "rm -rf node_modules && cd demo && rm -rf node_modules hooks platforms && cd ..",
+    "setup": "npm i; cd demo; npm install; cd ..; npm run build; cd demo; tns plugin add ..; cd .."
+  },
+  "typings": "index.d.ts",
+  "version": "2.4.0"
+}

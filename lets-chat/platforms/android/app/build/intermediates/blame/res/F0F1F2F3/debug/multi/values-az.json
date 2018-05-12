@@ -1,0 +1,64 @@
+[
+    {
+        "outputFile": "/home/harsh/Workspace/lets-chat/platforms/android/app/build/intermediates/incremental/mergeF0F1F2F3DebugResources/merged.dir/values-az/values-az.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 220,
+                    "endOffset": 321
+                },
+                "from": {
+                    "file": "/home/harsh/.android/build-cache/301ca36afe3aa1bb3765c4ec127e18c02c438a15/output/res/values-az/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 247,
+                        "endColumn": 220,
+                        "endOffset": 467
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 326,
+                    "endColumn": 106,
+                    "endOffset": 428
+                },
+                "from": {
+                    "file": "/home/harsh/.android/build-cache/f314f6dac5053e496caceab4e80a53bea45671ae/output/res/values-az/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 205,
+                        "endColumn": 102,
+                        "endOffset": 307
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 433,
+                    "endColumn": 100,
+                    "endOffset": 529
+                },
+                "from": {
+                    "file": "/home/harsh/.android/build-cache/2c3b9dd161d10a21910ac53b1703c44e970c1cb6/output/res/values-az/values-az.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 100,
+                        "endOffset": 151
+                    }
+                }
+            }
+        ]
+    }
+]

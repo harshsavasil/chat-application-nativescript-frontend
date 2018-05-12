@@ -1,0 +1,64 @@
+[
+    {
+        "outputFile": "/home/harsh/Workspace/lets-chat/platforms/android/app/build/intermediates/incremental/mergeF0F1F2F3F4DebugResources/merged.dir/values-ms/values-ms.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 204,
+                    "endOffset": 305
+                },
+                "from": {
+                    "file": "/home/harsh/.android/build-cache/301ca36afe3aa1bb3765c4ec127e18c02c438a15/output/res/values-ms/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 247,
+                        "endColumn": 204,
+                        "endOffset": 451
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 310,
+                    "endColumn": 106,
+                    "endOffset": 412
+                },
+                "from": {
+                    "file": "/home/harsh/.android/build-cache/f314f6dac5053e496caceab4e80a53bea45671ae/output/res/values-ms/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 205,
+                        "endColumn": 102,
+                        "endOffset": 307
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 417,
+                    "endColumn": 100,
+                    "endOffset": 513
+                },
+                "from": {
+                    "file": "/home/harsh/.android/build-cache/2c3b9dd161d10a21910ac53b1703c44e970c1cb6/output/res/values-ms/values-ms.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 100,
+                        "endOffset": 151
+                    }
+                }
+            }
+        ]
+    }
+]
