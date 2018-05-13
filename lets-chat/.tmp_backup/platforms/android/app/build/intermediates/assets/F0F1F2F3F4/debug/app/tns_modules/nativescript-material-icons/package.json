@@ -1,0 +1,61 @@
+{
+  "_from": "nativescript-material-icons@^1.0.3",
+  "_id": "nativescript-material-icons@1.0.3",
+  "_inBundle": false,
+  "_integrity": "sha1-d/qP23jsCR3EpqeFTnaF6iiVAIw=",
+  "_location": "/nativescript-material-icons",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "nativescript-material-icons@^1.0.3",
+    "name": "nativescript-material-icons",
+    "escapedName": "nativescript-material-icons",
+    "rawSpec": "^1.0.3",
+    "saveSpec": null,
+    "fetchSpec": "^1.0.3"
+  },
+  "_requiredBy": [
+    "/nativescript-whatsapp-template"
+  ],
+  "_resolved": "https://registry.npmjs.org/nativescript-material-icons/-/nativescript-material-icons-1.0.3.tgz",
+  "_shasum": "77fa8fdb78ec091dc4a6a7854e7685ea2895008c",
+  "_spec": "nativescript-material-icons@^1.0.3",
+  "_where": "/home/harsh/Workspace/nativeScript_dev/lets-chat/node_modules/nativescript-whatsapp-template",
+  "author": {
+    "name": "Shripal Soni"
+  },
+  "bugs": {
+    "url": "https://github.com/shripalsoni04/nativescript-material-icons/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A package containing ready to use material design icon font and css classes for nativescript projects. ",
+  "devDependencies": {
+    "material-design-icons": "^3.0.1"
+  },
+  "homepage": "https://github.com/shripalsoni04/nativescript-material-icons#readme",
+  "keyeords": [
+    "nativescript",
+    "material design icons",
+    "nativescript material design icons"
+  ],
+  "license": "MIT",
+  "name": "nativescript-material-icons",
+  "nativescript": {
+    "platforms": {
+      "android": "2.3.0",
+      "ios": "2.3.0"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shripalsoni04/nativescript-material-icons.git"
+  },
+  "scripts": {
+    "postinstall": "node scripts/postinstall.js",
+    "postuninstall": "node scripts/postuninstall.js",
+    "prepare": "node scripts/prepare.js"
+  },
+  "version": "1.0.3"
+}

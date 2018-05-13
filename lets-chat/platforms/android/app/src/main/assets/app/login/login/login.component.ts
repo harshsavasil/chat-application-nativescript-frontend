@@ -1,8 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { NavigationExtras } from '@angular/router';
-import { clear, getBoolean, getNumber, getString, hasKey, remove, setBoolean,
-  setNumber, setString } from 'application-settings';
+import {
+  clear, getBoolean, getNumber, getString, hasKey, remove, setBoolean,
+  setNumber, setString,
+} from 'application-settings';
 import { Page } from 'tns-core-modules/ui/page';
 import { ChatsService } from '../../core/chats.service';
 @Component({
@@ -84,10 +86,8 @@ export class LoginComponent implements OnInit {
         } else {
           alert(resData.message);
         }
-      },
-        (error) => {
-          alert(error.message)
-        }
-    );
+      }, (error) => {
+        alert(error.message);
+      });
   }
 }

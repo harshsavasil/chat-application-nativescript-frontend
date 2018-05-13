@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/harsh/Workspace/nativeScript_dev/lets-chat/platforms/android/app/build/intermediates/res/merged/F0F1F2/debug/drawable-anydpi-v21/design_ic_visibility.xml",
+        "source": "/home/harsh/.android/build-cache/bd42fe1270d464ede6e537596d59917f2e5acec9/output/res/drawable-anydpi-v21/design_ic_visibility.xml"
+    },
+    {
+        "merged": "/home/harsh/Workspace/lets-chat/platforms/android/app/build/intermediates/res/merged/F0F1F2/debug/drawable-anydpi-v21/design_ic_visibility.xml",
+        "source": "/home/harsh/.android/build-cache/bd42fe1270d464ede6e537596d59917f2e5acec9/output/res/drawable-anydpi-v21/design_ic_visibility.xml"
+    },
+    {
+        "merged": "/home/harsh/Workspace/nativeScript_dev/lets-chat/platforms/android/app/build/intermediates/res/merged/F0F1F2/debug/drawable-anydpi-v21/design_ic_visibility_off.xml",
+        "source": "/home/harsh/.android/build-cache/bd42fe1270d464ede6e537596d59917f2e5acec9/output/res/drawable-anydpi-v21/design_ic_visibility_off.xml"
+    },
+    {
+        "merged": "/home/harsh/Workspace/lets-chat/platforms/android/app/build/intermediates/res/merged/F0F1F2/debug/drawable-anydpi-v21/design_ic_visibility_off.xml",
+        "source": "/home/harsh/.android/build-cache/bd42fe1270d464ede6e537596d59917f2e5acec9/output/res/drawable-anydpi-v21/design_ic_visibility_off.xml"
+    }
+]

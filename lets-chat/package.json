@@ -22,7 +22,7 @@
     "@angular/http": "~4.3.6",
     "@angular/platform-browser": "~4.3.6",
     "@angular/router": "~4.3.6",
-    "date-fns": "^1.28.5",
+    "date-fns": "^1.29.0",
     "nativescript-angular": "~4.2.0",
     "nativescript-floatingactionbutton": "^4.1.0",
     "nativescript-loading-indicator": "^2.4.0",

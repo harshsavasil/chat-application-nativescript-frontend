@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "/home/harsh/Workspace/nativeScript_dev/lets-chat/platforms/android/app/build/intermediates/res/merged/F0F1F2/debug/drawable-hdpi/ic_comment.png",
+        "source": "/home/harsh/Workspace/nativeScript_dev/lets-chat/platforms/android/app/src/main/res/drawable-hdpi/ic_comment.png"
+    },
+    {
+        "merged": "/home/harsh/Workspace/nativeScript_dev/lets-chat/platforms/android/app/build/intermediates/res/merged/F0F1F2/debug/drawable-hdpi/ic_arrow_back.png",
+        "source": "/home/harsh/Workspace/nativeScript_dev/lets-chat/platforms/android/app/src/main/res/drawable-hdpi/ic_arrow_back.png"
+    },
+    {
+        "merged": "/home/harsh/Workspace/nativeScript_dev/lets-chat/platforms/android/app/build/intermediates/res/merged/F0F1F2/debug/drawable-hdpi/background.png",
+        "source": "/home/harsh/Workspace/nativeScript_dev/lets-chat/platforms/android/app/src/main/res/drawable-hdpi/background.png"
+    },
+    {
+        "merged": "/home/harsh/Workspace/lets-chat/platforms/android/app/build/intermediates/res/merged/F0F1F2/debug/drawable-hdpi/ic_photo_camera.png",
+        "source": "/home/harsh/Workspace/lets-chat/platforms/android/app/src/main/res/drawable-hdpi/ic_photo_camera.png"
+    },
+    {
+        "merged": "/home/harsh/Workspace/lets-chat/platforms/android/app/build/intermediates/res/merged/F0F1F2/debug/drawable-hdpi/logo.png",
+        "source": "/home/harsh/Workspace/lets-chat/platforms/android/app/src/main/res/drawable-hdpi/logo.png"
+    },
+    {
+        "merged": "/home/harsh/Workspace/lets-chat/platforms/android/app/build/intermediates/res/merged/F0F1F2/debug/drawable-hdpi/login_bg.png",
+        "source": "/home/harsh/Workspace/lets-chat/platforms/android/app/src/main/res/drawable-hdpi/login_bg.png"
+    },
+    {
+        "merged": "/home/harsh/Workspace/lets-chat/platforms/android/app/build/intermediates/res/merged/F0F1F2/debug/drawable-hdpi/background.png",
+        "source": "/home/harsh/Workspace/lets-chat/platforms/android/app/src/main/res/drawable-hdpi/background.png"
+    },
+    {
+        "merged": "/home/harsh/Workspace/nativeScript_dev/lets-chat/platforms/android/app/build/intermediates/res/merged/F0F1F2/debug/drawable-hdpi/logo.png",
+        "source": "/home/harsh/Workspace/nativeScript_dev/lets-chat/platforms/android/app/src/main/res/drawable-hdpi/logo.png"
+    },
+    {
+        "merged": "/home/harsh/Workspace/lets-chat/platforms/android/app/build/intermediates/res/merged/F0F1F2/debug/drawable-hdpi/ic_arrow_back.png",
+        "source": "/home/harsh/Workspace/lets-chat/platforms/android/app/src/main/res/drawable-hdpi/ic_arrow_back.png"
+    },
+    {
+        "merged": "/home/harsh/Workspace/lets-chat/platforms/android/app/build/intermediates/res/merged/F0F1F2/debug/drawable-hdpi/ic_comment.png",
+        "source": "/home/harsh/Workspace/lets-chat/platforms/android/app/src/main/res/drawable-hdpi/ic_comment.png"
+    },
+    {
+        "merged": "/home/harsh/Workspace/nativeScript_dev/lets-chat/platforms/android/app/build/intermediates/res/merged/F0F1F2/debug/drawable-hdpi/ic_photo_camera.png",
+        "source": "/home/harsh/Workspace/nativeScript_dev/lets-chat/platforms/android/app/src/main/res/drawable-hdpi/ic_photo_camera.png"
+    },
+    {
+        "merged": "/home/harsh/Workspace/nativeScript_dev/lets-chat/platforms/android/app/build/intermediates/res/merged/F0F1F2/debug/drawable-hdpi/icon.png",
+        "source": "/home/harsh/Workspace/nativeScript_dev/lets-chat/platforms/android/app/src/main/res/drawable-hdpi/icon.png"
+    },
+    {
+        "merged": "/home/harsh/Workspace/nativeScript_dev/lets-chat/platforms/android/app/build/intermediates/res/merged/F0F1F2/debug/drawable-hdpi/login_bg.png",
+        "source": "/home/harsh/Workspace/nativeScript_dev/lets-chat/platforms/android/app/src/main/res/drawable-hdpi/login_bg.png"
+    },
+    {
+        "merged": "/home/harsh/Workspace/lets-chat/platforms/android/app/build/intermediates/res/merged/F0F1F2/debug/drawable-hdpi/icon.png",
+        "source": "/home/harsh/Workspace/lets-chat/platforms/android/app/src/main/res/drawable-hdpi/icon.png"
+    }
+]

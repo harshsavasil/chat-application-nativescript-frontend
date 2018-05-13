@@ -1,0 +1,28 @@
+@import '~nativescript-theme-core/scss/forest';
+@import '~nativescript-theme-core/scss/index';
+@import 'chats.component.common';
+
+$lightgreen: #25D366;
+$lightblue: #80cbc4;
+
+.unread {
+  font-size: 11;
+  padding-top: 2;
+  border-radius: 50%;
+  background-color: $lightblue;
+  color: white;
+}
+
+.time {
+  &-unread {
+    color: $lightgreen;
+  }
+  color: $grey-dark;
+  font-size: 12;
+}
+.contact-name {
+  color: #01579b;
+}
+.body {
+  color: #42a5f5;
+}

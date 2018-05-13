@@ -10,6 +10,7 @@ import { PullToRefresh } from 'nativescript-pulltorefresh';
 import { Observable } from 'rxjs/Observable';
 import { AnonymousSubscription } from 'rxjs/Subscription';
 import { Chat, ChatsService, Contact } from '../core';
+import { DataBaseService } from '../core/database.service';
 import { Message } from '../core/models/message.model';
 // tslint:disable-next-line:no-var-requires
 const Sqlite = require('nativescript-sqlite');
@@ -37,6 +38,7 @@ export class ChatComponent implements OnInit {
     private chatsService: ChatsService,
     private router: RouterExtensions,
     private ref: ChangeDetectorRef,
+    private databaseService: DataBaseService,
     @Inject('platform') public platform,
   ) {
   }
@@ -52,7 +54,9 @@ export class ChatComponent implements OnInit {
   }
 
   getMessages() {
-    const selectQuery = 'SELECT * FROM messages WHERE contact = ?';
+    // console.log('updating UI');
+    // tslint:disable-next-line:max-line-length
+    const selectQuery = 'SELECT * FROM messages WHERE contact = ? ORDER BY createdTime';
     (new Sqlite(Config.dbName)).then((db) => {
       db.all(selectQuery, [this.chat.number]).then((rows) => {
         this.messages = [];
@@ -86,7 +90,7 @@ export class ChatComponent implements OnInit {
   recieveMessage($event) {
     const textMessage = $event;
     this.chat.text = textMessage;
-    this.getMessages();
+    this.sendMessageToServer();
   }
   readMessage() {
     const data = {
@@ -112,8 +116,52 @@ export class ChatComponent implements OnInit {
       (args.object as PullToRefresh).refreshing = false;
     }, 1000);
   }
+  sendMessageToServer() {
+    const selectQuery = 'SELECT * FROM messages WHERE sent = 0 LIMIT 1';
+    (new Sqlite(Config.dbName)).then((db) => {
+      db.all(selectQuery).then((rows) => {
+        // tslint:disable-next-line:forin
+        for (const row in rows) {
+          const data = {
+            unique_id: rows[row][0],
+            to: rows[row][8],
+            from_id: this.userNumber,
+            text: rows[row][1],
+            created_time: rows[row][6],
+          };
+          this.chatsService.sendMessage(data)
+            .subscribe((success) => {
+              if (success.result === 1) {
+                this.databaseService.updateStatusOfMessage(
+                  success.status, success.unique_id);
+                if (success.message_timings.sent_time) {
+                  this.databaseService.updateSentTimeOfMessage(
+                    success.message_timings.sent_time, success.unique_id);
+                }
+                if (success.message_timings.delivered_time) {
+                  this.databaseService.updateDeliveryTimeOfMessage(
+                    success.message_timings.delivered_time,
+                    success.unique_id);
+                }
+                if (success.message_id) {
+                  this.databaseService.updateMessaeIdOfMessage(
+                    success.message_id, success.unique_id);
+                }
+              }
+            }, (error) => {
+              this.databaseService.updateStatusOfMessage(
+                error.status, error.unique_id);
+            });
+        }
+      }, (dbErr) => {
+        // tslint:disable-next-line:no-console
+        console.log(dbErr);
+      });
+      this.getMessages();
+    });
+  }
   private subscribeToData(): void {
     // tslint:disable-next-line:max-line-length
-    this.timerSubscription = Observable.timer(100).first().subscribe(() => this.getMessages());
+    this.timerSubscription = Observable.timer(1000).first().subscribe(() => this.getMessages());
   }
 }

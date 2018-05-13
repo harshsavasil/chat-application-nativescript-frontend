@@ -20,16 +20,22 @@ export class AppComponent {
       const notificationBody = fcmNotification && fcmNotification.getBody();
       alert('Message received!\n' + notificationBody + '\n' + stringifiedData);
       const messageJSON = JSON.parse(stringifiedData);
-      const insertMsgJson = {
-        sender: 0,
-        created: messageJSON.timestamp,
-        contact: messageJSON.from_id,
-        sent: 2,
-        text: messageJSON.text,
-        message_id: messageJSON._id,
-      };
-      this.databaseService.insertIntoMessagesWithMessageId(insertMsgJson);
-      // this.databaseService.updateMessaeIdOfMessage()
+      if (messageJSON.created_time) {
+        const insertMsgJson = {
+          sender: 0,
+          created: messageJSON.created_time,
+          contact: messageJSON.from,
+          sent: 2,
+          text: messageJSON.text,
+          message_id: messageJSON._id,
+        };
+        this.databaseService.insertIntoMessagesWithMessageId(insertMsgJson);
+      }
+      if (messageJSON.delivered_time) {
+        this.databaseService.updateStatusOfMessage(2, messageJSON.unique_id);
+        this.databaseService.updateDeliveryTimeOfMessage(
+          messageJSON.delivered_time, messageJSON.unique_id);
+      }
     },
   };
   constructor(

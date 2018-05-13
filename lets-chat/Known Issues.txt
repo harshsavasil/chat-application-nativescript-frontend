@@ -3,7 +3,6 @@ for previous day show 'Last Seen Yesterday'
 and for day before yesterday use short filter of date.
 2. Add Date Division in Chat Messages.
 3. Settings Feature is Pending.
-4. Logout Feature is Pending.
+4. Logout Feature is Complete.
 5. Pressing Back Button should exit the app and not logout the user.
-6. Bug while entering from signup screen to home. (Number is not passed)
-7. Messages not loading until refresh on the chat screen.
+6. Bug while entering from signup screen to home. (Number is not passed) - Resolved

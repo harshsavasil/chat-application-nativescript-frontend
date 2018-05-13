@@ -1,0 +1,67 @@
+.login-page {
+    background-image: url('res://login_bg');
+    background-size: 100% 100%;
+    .login-container {
+        margin: 10%;
+        margin-bottom: 0;
+        margin-top: 20%;
+        padding: 15;
+        background-color: white;
+        height: 30%;
+        border-radius: 10 10 0 0;
+        .login-mobile, .login-password {
+            margin: 10;
+            padding: 10;
+            padding-left: 5;
+        }
+    }
+    .signup-container {
+        margin: 10%;
+        margin-bottom: 0;
+        margin-top: 20%;
+        vertical-align: center;
+        padding: 15;
+        background-color: white;
+        height: 40%;
+        border-radius: 10 10 0 0;
+        .signup-input-fields {
+            margin: 10;
+            padding: 10;
+            padding-left: 5; 
+        }
+        Label {
+            color: black
+        }
+        
+        .male-label {
+            text-align: right
+        }
+        
+        .female-label {
+            text-align: left
+        }
+    }
+    .button-container {
+        background-color: white;
+        padding: 15;
+        margin: 10%;
+        margin-top: 0;
+        border-radius: 0 0 10 10;
+        Button {
+            padding: 10;
+            border-radius: 5;
+            margin: 5
+        }
+        
+        .submit-button {
+            background-color: #ffb300;
+            color: black
+        }
+        
+        .signup-button {
+            background-color: #2e7d32;
+            color: white
+        }
+    }
+}
+

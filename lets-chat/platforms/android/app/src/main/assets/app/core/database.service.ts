@@ -137,6 +137,47 @@ export class DataBaseService {
             db.close();
         });
     }
+    insertReceivedMessages(message) {
+        const insertQuery = `
+            INSERT INTO messages
+            ( messageText, sender, createdTime, sent, contact, messageId)
+            VALUES (?, ?, ?, ?, ?, ?)`;
+        const insertJSON = [];
+        insertJSON.push(message.text);
+        insertJSON.push(parseInt(message.sender, 10));
+        insertJSON.push(parseFloat(message.created));
+        insertJSON.push(parseInt(message.sent, 10));
+        insertJSON.push(message.contact);
+        insertJSON.push(message.message_id);
+        (new Sqlite(Config.dbName)).then((db) => {
+            db.execSQL(insertQuery, insertJSON).then((id) => {
+                // tslint:disable-next-line:no-console
+                console.log('INSERT MEssage RESULT', id);
+            }, (error) => {
+                // tslint:disable-next-line:no-console
+                console.log('INSERT ERROR', error);
+            });
+            db.close();
+        });
+    }
+    checkIfMessageExists(messageId) {
+        const insertQuery = `
+            SELECT * FROM messages
+            WHERE messageId = ?`;
+        (new Sqlite(Config.dbName)).then((db) => {
+            db.all(insertQuery, [messageId]).then((rows) => {
+                if (rows.length > 0) {
+                    return true;
+                } else {
+                    return false;
+                }
+            }, (error) => {
+                // tslint:disable-next-line:no-console
+                console.log('INSERT ERROR', error);
+            });
+            db.close();
+        });
+    }
     insertIntoMessagesWithMessageId(message) {
         const insertQuery = `
             INSERT INTO messages

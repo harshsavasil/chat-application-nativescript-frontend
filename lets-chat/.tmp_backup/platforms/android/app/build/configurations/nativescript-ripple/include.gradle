@@ -1,0 +1,12 @@
+//default elements
+android {
+    productFlavors {
+        "F4" {
+            dimension "nativescriptripple"
+        }
+    }
+}
+
+dependencies {
+    compile 'com.balysv:material-ripple:1.0.2'
+}

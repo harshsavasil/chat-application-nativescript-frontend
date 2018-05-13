@@ -35,6 +35,7 @@ export class HomeComponent {
     this.userNumber = getString('userId');
     this.save_push_token();
     this.getChatsFromService();
+    this.getChatMessagesFromService();
     this.pushUnsentMessagesToServer();
   }
   logout() {
@@ -54,7 +55,7 @@ export class HomeComponent {
           this.destroyTimerOfPushToken();
         }, (error) => {
           this.subscribeToData();
-          alert(error.message);
+          // alert(error.message);
         });
     }
   }
@@ -78,77 +79,71 @@ export class HomeComponent {
         alert('Could not fetch contacts list.');
       });
   }
-  // getChatMessagesFromService() {
-  //   this.lastMessageSyncTime = getString('lastMessageSyncTime', '0');
-  //   this.messagesSubscription = this.chatsService.getChatMessages(
-  //     this.userNumber, this.lastMessageSyncTime)
-  //     .subscribe((messagesJson) => {
-  //       const messagesResponse = messagesJson.messages;
-  //       messagesResponse.forEach((message) => {
-  //         this.databaseService.insertIntoMessages(message);
-  //       });
-  //       const currentTime = Date.now();
-  //       setString('lastMessageSyncTime', currentTime.toString());
-  //       this.subscribeToMessagesData();
-  //     }, (error) => {
-  //       alert(error.message);
-  //     });
-  // }
+  getChatMessagesFromService() {
+    this.lastMessageSyncTime = getString('lastMessageSyncTime', '0');
+    this.messagesSubscription = this.chatsService.getChatMessages(
+      this.userNumber, this.lastMessageSyncTime)
+      .subscribe((messagesJson) => {
+        const messagesResponse = messagesJson.messages;
+        messagesResponse.forEach((message) => {
+          if (!this.databaseService.checkIfMessageExists(message.message_id)) {
+            this.databaseService.insertReceivedMessages(message);
+          }
+        });
+        const currentTime = Date.now();
+        setString('lastMessageSyncTime', currentTime.toString());
+      }, (error) => {
+        alert(error.message);
+      });
+    this.subscribeToMessagesData();
+  }
   pushUnsentMessagesToServer() {
-    const selectQuery = 'SELECT * FROM messages WHERE sent = 0 LIMIT 1';
-    while (true) {
-      (new Sqlite(Config.dbName)).then((db) => {
-        db.each(selectQuery).then((row) => {
+    const selectQuery = 'SELECT * FROM messages WHERE sent = 0';
+    (new Sqlite(Config.dbName)).then((db) => {
+      db.all(selectQuery).then((rows) => {
+        // tslint:disable-next-line:forin
+        for (const row in rows) {
           const data = {
-            unique_id: row[0],
-            to: row[8],
+            unique_id: rows[row][0],
+            to: rows[row][8],
             from_id: this.userNumber,
-            text: row[1],
-            created_time: row[6],
+            text: rows[row][1],
+            created_time: rows[row][6],
           };
-          // tslint:disable-next-line:max-line-length
           this.unsentMessagesSubscription = this.chatsService.sendMessage(data)
             .subscribe((success) => {
-              if (success.result === 1) {
-                this.databaseService.updateStatusOfMessage(
-                  success.status, success.unique_id);
-                if (success.message_timings.sent_time) {
-                  this.databaseService.updateSentTimeOfMessage(
-                    success.message_timings.sent_time, success.unique_id);
-                }
-                if (success.message_timings.delivered_time) {
-                  this.databaseService.updateDeliveryTimeOfMessage(
-                    success.message_timings.sent_time, success.unique_id);
-                }
-                if (success.message_id) {
-                  this.databaseService.updateMessaeIdOfMessage(
-                    success.message_id, success.unique_id);
-                }
-              }
-            }, (error) => {
               this.databaseService.updateStatusOfMessage(
-                error.status, error.unique_id);
+                success.status, success.unique_id);
+              this.databaseService.updateSentTimeOfMessage(
+                success.sent_time, success.unique_id);
+              this.databaseService.updateMessaeIdOfMessage(
+                success.message_id, success.unique_id);
+            }, (error) => {
+              // tslint:disable-next-line:no-console
+              // console.log(error.message);
             });
-        }, (error) => {
-          // tslint:disable-next-line:no-console
-          console.log('Unable to fetch unsent messages', error);
-        });
+        }
       }, (dbErr) => {
         // tslint:disable-next-line:no-console
         console.log(dbErr);
       });
-    }
+      this.subscribeToUnsentMessagesData();
+    });
   }
   private subscribeToData(): void {
     this.timerSubscription = Observable.timer(1000).first()
       .subscribe(() => this.save_push_token());
   }
   private subscribeToChatsData(): void {
-    this.chatstimerSubscription = Observable.timer(1000).first()
+    this.chatstimerSubscription = Observable.timer(5 * 60 * 1000).first()
       .subscribe(() => this.getChatsFromService());
   }
   private subscribeToUnsentMessagesData(): void {
-    this.unsentMessagesSubscription = Observable.timer(500).first()
+    this.unsentMessagesSubscription = Observable.timer(5000).first()
       .subscribe(() => this.pushUnsentMessagesToServer());
+  }
+  private subscribeToMessagesData(): void {
+    this.messagesSubscription = Observable.timer(5000).first()
+      .subscribe(() => this.getChatMessagesFromService());
   }
 }

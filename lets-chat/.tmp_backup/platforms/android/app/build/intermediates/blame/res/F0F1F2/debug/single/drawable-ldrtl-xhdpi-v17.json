@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/home/harsh/Workspace/nativeScript_dev/lets-chat/platforms/android/app/build/intermediates/res/merged/F0F1F2/debug/drawable-ldrtl-xhdpi-v17/abc_spinner_mtrl_am_alpha.9.png",
+        "source": "/home/harsh/.android/build-cache/c8eb399cd6a406670f36c82489953f4fa2cc95f1/output/res/drawable-ldrtl-xhdpi-v17/abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "/home/harsh/Workspace/nativeScript_dev/lets-chat/platforms/android/app/build/intermediates/res/merged/F0F1F2/debug/drawable-ldrtl-xhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "/home/harsh/.android/build-cache/c8eb399cd6a406670f36c82489953f4fa2cc95f1/output/res/drawable-ldrtl-xhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/home/harsh/Workspace/nativeScript_dev/lets-chat/platforms/android/app/build/intermediates/res/merged/F0F1F2/debug/drawable-ldrtl-xhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "/home/harsh/.android/build-cache/c8eb399cd6a406670f36c82489953f4fa2cc95f1/output/res/drawable-ldrtl-xhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/harsh/Workspace/lets-chat/platforms/android/app/build/intermediates/res/merged/F0F1F2/debug/drawable-ldrtl-xhdpi-v17/abc_spinner_mtrl_am_alpha.9.png",
+        "source": "/home/harsh/.android/build-cache/c8eb399cd6a406670f36c82489953f4fa2cc95f1/output/res/drawable-ldrtl-xhdpi-v17/abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "/home/harsh/Workspace/lets-chat/platforms/android/app/build/intermediates/res/merged/F0F1F2/debug/drawable-ldrtl-xhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "/home/harsh/.android/build-cache/c8eb399cd6a406670f36c82489953f4fa2cc95f1/output/res/drawable-ldrtl-xhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/home/harsh/Workspace/lets-chat/platforms/android/app/build/intermediates/res/merged/F0F1F2/debug/drawable-ldrtl-xhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "/home/harsh/.android/build-cache/c8eb399cd6a406670f36c82489953f4fa2cc95f1/output/res/drawable-ldrtl-xhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png"
+    }
+]

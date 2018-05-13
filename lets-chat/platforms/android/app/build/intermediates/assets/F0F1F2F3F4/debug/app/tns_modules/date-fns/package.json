@@ -16,12 +16,13 @@
     "fetchSpec": "^1.28.5"
   },
   "_requiredBy": [
-    "/nativescript-whatsapp-template"
+    "#USER",
+    "/"
   ],
   "_resolved": "https://registry.npmjs.org/date-fns/-/date-fns-1.29.0.tgz",
   "_shasum": "12e609cdcb935127311d04d33334e2960a2a54e6",
   "_spec": "date-fns@^1.28.5",
-  "_where": "/home/harsh/Workspace/nativeScript_dev/lets-chat/node_modules/nativescript-whatsapp-template",
+  "_where": "/home/harsh/Workspace/nativeScript_dev/chat-application-nativescript-frontend/lets-chat",
   "author": {
     "name": "Sasha Koss",
     "email": "koss@nocorp.me"
